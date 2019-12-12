@@ -1,3 +1,6 @@
+# require 'pry-byebug'
+# require 'pry'
+
 describe '#count_elements' do
 
   it 'should return a hash with the count of each element in the simple array' do
