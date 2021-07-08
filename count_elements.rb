@@ -1,4 +1,4 @@
 def count_elements(array)
-  # code goes here
+  array.each_with_object({}) { |word, hash| hash[word] = array.count(word) }
 end
  
